@@ -1,0 +1,210 @@
+/*
+ * Color Scheme
+ * ============
+ */
+.cm-string {
+    color: #01b199;
+}
+
+.cm-error {
+    background: #F92672;
+    color: #F8F8F2 !important;
+}
+
+.cm-meta,
+.cm-comment {
+    color: #93A2AA;
+}
+
+.cm-atom,
+.cm-number,
+.cm-link {
+    color: #f47d64;
+}
+
+.cm-property,
+.cm-attribute {
+    color: #07adcf;
+}
+.cm-keyword {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cm-string.cm-property,
+.cm-variable,
+.cm-variable-2 {
+    color: #07adcf;
+}
+
+.cm-variable-3,
+.cm-qualifier,
+.cm-builtin {
+    color: #07adcf;
+}
+
+.cm-m-xml.cm-tag,
+.cm-m-xml.cm-tag.cm-bracket,
+.cm-m-xml.cm-tag.cm-bracket.CodeMirror-matchingtag {
+    color: #8781bd !important;
+}
+
+.cm-m-xml.CodeMirror-matchingtag {
+    background-color: #093f59;
+}
+
+.cm-m-xml.cm-tag.cm-error,
+.cm-m-xml.cm-tag.cm-error.CodeMirror-matchingtag
+.cm-m-xml.cm-tag.cm-bracket.cm-error,
+.cm-m-xml.cm-tag.cm-bracket.cm-error.CodeMirror-matchingtag {
+    color: #FFFFFF !important;
+}
+
+.cm-operator {
+    color: #07adcf;
+}
+
+.cm-bracket,
+.cm-def {
+    color: #07adcf;
+}
+
+/**
+ * User Interface
+ * ==============
+ *
+ * @TODO Matching words
+ * @TODO Scrollbars
+ * @TODO Find highlights
+ */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background: #1A252D;
+    color: #07ADCF;
+    line-height: normal;
+}
+
+#not-editor,
+#image-holder {
+    background-color: #222;
+    color: #F8F8F2;
+    transition: background-color 0.3s ease-out;
+}
+
+.CodeMirror {
+    border-left-color: #1B1B1B;
+}
+
+.CodeMirror-lines {
+    color: #07adcf;
+}
+
+.CodeMirror-line .cm-property {
+    color: #FFFFFF;
+}
+
+div.CodeMirror-selected {
+    /*background: #444 !important;*/
+    background-color: rgba(16, 106, 91, 0.99);
+}
+
+.CodeMirror-gutters {
+    background: #1A252D none repeat scroll 0 0 !important;
+    border-right: 1px solid #424c53;
+}
+
+.CodeMirror-guttermarker {
+    color: #F8F8F2;
+}
+
+.CodeMirror-guttermarker-subtle {
+    color: #272822;
+}
+
+.CodeMirror-linenumber {
+    color: #93a2aa;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #f8f8f0 !important;
+}
+
+.CodeMirror-gutter-elt {
+    background: none;
+}
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline {
+    background: #3B4B53 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: #767676;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: #006e00;
+    color: #07adcf !important;
+    padding-bottom: 0.166em;
+}
+
+.CodeMirror-searching {
+    background-color: #465e47;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #465e47;
+    color: #07adcf !important;
+}
+
+/**
+ * Extensions
+ * ==========
+ */
+
+/*
+ * Brackets-Vim (https://github.com/megalord/brackets-vim)
+ * -------------------------------------------------------
+ */
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+    background: rgba(248, 248, 242, 0.5) !important;
+}
+
+/**
+ * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+ * --------------------------------------------------------------------------
+ */
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #75715E !important;
+}
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #75715E;
+}
+
+.CodeMirror-foldgutter-open::after {
+    content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+    background-color: #333;
+    border-color: #555;
+    color: #555;
+    padding: 0 10px;
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Bluemix",
+    "name": "bluemix-theme",
+    "description": "This dark theme is based on the Bluemix color scheme from the Bluemix web editor.",
+    "version": "0.1.0",
+    "author": "Michael Schimko <mschimko@gmail.com>",
+    "homepage": "https://github.com/mschimk1/brackets-bluemix",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mschimk1/brackets-bluemix.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "theme": {
+        "file": "theme.css",
+        "dark": true,
+        "addModeClass": true
+    }
+}
